@@ -1,0 +1,71 @@
+.fomrularioTodo {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+textarea {
+    max-height: 60px;
+    max-width: 500px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+.carta {
+    border: 1px solid black;
+    width: 400px;
+    text-align: center;
+    border-radius: 3%;
+    background-color: #2B303A;
+}
+
+.previewCartas {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    height: 200px;
+    border: 1px solid white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.previewName {
+    border: 3px outset white;
+    background-color: white;
+    width: 350px;
+    margin-left: 25px;
+    text-align: center;
+    height: 20px;
+}
+
+.description {
+    border: 5px outset white;
+    background-color: white;
+    word-wrap: break-word;
+    margin: 15px;
+    height: 100px;
+}
+
+.atr, .trunfo {
+    color: white;
+}
+
+.savedCards {
+    display: flex;
+    margin: 5px;
+}
+
+.carta{
+    margin: 5px;
+}
